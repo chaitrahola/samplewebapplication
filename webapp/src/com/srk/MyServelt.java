@@ -30,7 +30,7 @@ public class MyServelt extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		PrintWriter out= response.getWriter();
-		out.print("welcome to the magical word");
+		out.print("The magical world");
 	}
 
 	/**
