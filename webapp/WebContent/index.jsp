@@ -9,28 +9,26 @@
 <style>
 h1.uppercase {
     text-transform: uppercase;
+    color: red;
 }
 p.lowercase {
     text-transform: lowercase;
+    
 }
 body {
-    background-color: yellow;
+    background-color:yellow;
    p.solid {border-style: solid;}
-   body {
-    color: blue;
-}
+   }
 
-h1 {
-    color: green;
-}
-}
+ }
 h1 {
     text-align: center;
 }
-h1 {
-    text-shadow: 2px 2px #FF0000;
-}
-p{ text-align:center;}
+ /* h1 {
+    text-shadow: 2px 2px ;
+} */
+ p{ text-align:center;}
+
 click{value-align:center;}
 
 </style>
@@ -38,10 +36,10 @@ click{value-align:center;}
 
 <body>
 <h1 class="uppercase">welcome to java </h1>
-<p class="lowercase">YOU ARE HERE....  .<p>
+<a href="http://www.java9s.com"><p class ="lowercase">CLICK HERE<p></a>
 <hr/>
 <form action="MyServelt">
-<input type="submit" value="click" /><p>to learn !!!<p>
+<p>to explore!!!<p>
 </form>
 
 </body>
